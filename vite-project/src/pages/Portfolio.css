@@ -1,0 +1,58 @@
+.img-thumbnail {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.image-container {
+    position: relative;
+    /* Positioning for the overlay text */
+    display: inline-block;
+    /* Match image width */
+    height: auto;
+    overflow: hidden;
+    /* Ensures overlay text stays within bounds */
+}
+
+.img-thumbnail img {
+    width: 350px;
+    height: auto;
+    transition: transform 3s ease;
+
+    backface-visibility: hidden;
+}
+
+p, h1{
+    font-size: 1.5rem;
+    text-align: center;
+
+}
+
+.img-thumbnail img:hover {
+    transform: scale(1.1);
+    /* Slight zoom on hover */
+    opacity: 1;
+    filter: grayscale(100%);
+}
+
+.image-container:hover .text {
+    opacity: 1;
+}
+
+.text {
+    background-color: rgba(76, 175, 80, 0.8);
+    /* Semi-transparent green */
+    color: white;
+    font-size: 16px;
+    padding: 16px 32px;
+    text-align: center;
+    border-radius: 5px;
+
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}

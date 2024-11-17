@@ -4,17 +4,17 @@ import {
   createBrowserRouter,
   RouterProvider,
 } from 'react-router-dom';
-
+import 'bootstrap/dist/css/bootstrap.min.css';
 // Bringing in the pages the router will use to conditionally show the appropriate views
 import App from './App.jsx'
-import HomePage from '.pages/HomePage.jsx'
-import About from '.pages/AboutMe.jsx'
-import Contact from '.pages/Contact.jsx'
-import Portfolio from '.pages/Portfolio.jsx'
-import Resume from '.pages/Resume.jsx'
-import Error from '.pages/Error.jsx'
-import './index.css'
-import 'bootstrap/dist/css/bootstrap.min.css';
+import HomePage from './pages/HomePage.jsx'
+import About from './pages/AboutMe.jsx'
+import Contact from './pages/Contact.jsx'
+import Portfolio from './pages/Portfolio.jsx'
+// import Resume from '.pages/Resume.jsx'
+import Error from './pages/Error.jsx'
+
+
 
 // Defining the accesible routes and which component to render when the route is accessed
 const router = createBrowserRouter ([
@@ -39,10 +39,10 @@ const router = createBrowserRouter ([
     path: 'Portfolio',
     element: <Portfolio />,
   },
-  {
-    path: 'Resume',
-    element: <Resume />,
-  },
+  // {
+  //   path: 'Resume',
+  //   element: <Resume />,
+  // },
 ],
 }]);
 
