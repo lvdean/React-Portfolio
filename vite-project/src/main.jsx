@@ -11,7 +11,7 @@ import HomePage from './pages/HomePage.jsx'
 import About from './pages/AboutMe.jsx'
 import Contact from './pages/Contact.jsx'
 import Portfolio from './pages/Portfolio.jsx'
-// import Resume from '.pages/Resume.jsx'
+import Resume from './pages/Resume.jsx'
 import Error from './pages/Error.jsx'
 
 
@@ -39,10 +39,10 @@ const router = createBrowserRouter ([
     path: 'Portfolio',
     element: <Portfolio />,
   },
-  // {
-  //   path: 'Resume',
-  //   element: <Resume />,
-  // },
+  {
+    path: 'Resume',
+    element: <Resume />,
+  },
 ],
 }]);
 

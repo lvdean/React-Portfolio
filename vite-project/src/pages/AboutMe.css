@@ -1,3 +1,4 @@
+
 /* Reset global styles */
 * {
     margin: 0;
@@ -6,13 +7,13 @@
 }
 
 /* Center the main container */
-.container {
+.about {
     display: flex;
     flex-direction: column;
     justify-content: space-between; /* Space out the content to push footer to the bottom */
     min-height: 100vh; /* Ensure the container takes full screen height */
     padding: 20px;
-    text-align: center; /* Center-align everything */
+    align-items: center;
 }
 
 .about-me {
@@ -68,6 +69,20 @@ img{
     height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
+    margin-left: 40px;
+}
+.fonts h1 {
+ font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.fonts h2 {
+ font-family: "Edu AU VIC WA NT Pre", cursive;
+  font-optical-sizing: auto;
+  font-weight: 400;
+  font-style: normal;
 }
 
 

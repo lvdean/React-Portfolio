@@ -55,7 +55,7 @@ export default function Contact() {
     <form onSubmit={handleSubmit}>
       <h1>Contact Us</h1>
 
-<div className="container">
+<div className="contact">
       <div className="mb-3">
         <label htmlFor="name" className="form-label">
           Name:

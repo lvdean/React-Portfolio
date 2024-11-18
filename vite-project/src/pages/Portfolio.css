@@ -21,8 +21,18 @@
     padding: 1rem;
     backface-visibility: hidden;
     position: relative;
-  
+    
 }
+img{
+        border-radius: 50%;
+        width: 200px;
+        height: 250px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+    }
+    
+  
+
 
 
  h2 {
@@ -30,12 +40,14 @@
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-family: "Poetsen One", sans-serif;
 }
 h1{
     font-size: 3rem;
     text-align: center;
     margin-top: 2rem;
     margin-bottom: 2rem;
+    font-family: "Poetsen One", sans-serif;
 }
 
 
