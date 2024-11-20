@@ -1,6 +1,7 @@
 import { Link, useLocation } from 'react-router-dom';
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
 import { faHouse, faUser, faAddressBook, faFileLines, faFolderOpen } from "@fortawesome/free-solid-svg-icons"
+import "../components/Nav.css"
 
 // We assign them to their own variable names
 function NavTabs() {
