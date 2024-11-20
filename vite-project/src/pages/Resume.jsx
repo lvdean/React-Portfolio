@@ -1,3 +1,5 @@
+import"../pages/Resume.css";
+
 export default function Resume() {
     return (
       <div>
@@ -6,7 +8,7 @@ export default function Resume() {
       <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poetsen+One&display=swap" rel="stylesheet" />
       <div class ="resume">
         <h1>Resume</h1>
-        <h2>Here is my resume!</h2>
+        <h2>Here is my <span class="my-resume">resume!</span></h2>
         <h2>Front-end Proficiencies</h2>
         <ul>
           <li>HTML</li>

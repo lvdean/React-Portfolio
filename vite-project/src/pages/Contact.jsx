@@ -53,9 +53,12 @@ export default function Contact() {
 
   return (
     <form onSubmit={handleSubmit}>
-      <h1>Contact Us</h1>
-
+      
+      <link rel="preconnect" href="https://fonts.googleapis.com" />
+      <link rel="preconnect" href="https://fonts.gstatic.com" crossOrigin="true" />
+      <link href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Pre:wght@400..700&family=Poetsen+One&display=swap" rel="stylesheet" />
 <div className="contact">
+<h1>Contact</h1>
       <div className="mb-3">
         <label htmlFor="name" className="form-label">
           Name:

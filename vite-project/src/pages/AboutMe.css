@@ -14,6 +14,7 @@
     min-height: 100vh; /* Ensure the container takes full screen height */
     padding: 20px;
     align-items: center;
+    background-image: radial-gradient(rgb(224, 216, 119), rgb(2, 48, 71));
 }
 
 .about-me {
@@ -37,7 +38,7 @@
 /* Footer icon styles */
 .footer a {
     font-size: 3rem;
-    color: #0077b5;
+    color: #023047;
     text-decoration: none;
     transition: color 0.3s ease;
     margin: 1rem;
@@ -61,21 +62,24 @@ div.about-me .footer {
 
 .img-thumbnail{
     border: none;
+    background-color: transparent;
     
 }
-img{
+.about img{
     border-radius: 50%;
     width: 200px;
     height: 250px;
     margin-top: 20px;
     margin-bottom: 20px;
     margin-left: 40px;
+    box-shadow: 0 0 10px 10px rgb(224, 216, 119);
 }
 .fonts h1 {
  font-family: "Edu AU VIC WA NT Pre", cursive;
   font-optical-sizing: auto;
   font-weight: 400;
   font-style: normal;
+  text-shadow: 1px 1px 2px rgba(68, 70, 60, 0.731);
 }
 
 .fonts h2 {
@@ -84,5 +88,6 @@ img{
   font-weight: 400;
   font-style: normal;
 }
+
 
 

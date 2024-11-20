@@ -1,6 +1,62 @@
-ul li{
-    list-style-type: none;
+/* Reset and global styling */
+/* * {
     margin: 0;
     padding: 0;
-    text-align: center;
+    box-sizing: border-box;
+  } */
+
+/* body {
+    font-family: "Edu AU VIC WA NT Pre", sans-serif;
+    background-color: #f9f9f9;
+    color: #333;
+    line-height: 1.6;
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+  } */
+
+/* Resume container styling */
+.resume {
+  width: 100%;
+  padding: 20px 30px;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  position: relative;
+  background-image: linear-gradient(rgb(2, 48, 71), rgb(224, 216, 119));
+
+}
+
+
+.resume h1 {
+  font-family: "Poetsen One", sans-serif;
+  font-size: 5rem;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.resume h2 {
+  font-size: 2rem;
+  margin-top: 20px;
+  border-bottom: 2px solid #023047;
+  padding-bottom: 10px;
+}
+
+.resume ul {
+  list-style-type: square;
+  margin: 15px 0;
+  padding-left: 40%
+}
+
+.resume ul li {
+  font-size: 2rem;
+  margin-bottom: 5px;
+  font-family: "Edu AU VIC WA NT Pre", sans-serif;
+
+}
+
+.resume ul li:hover {
+  color: #f1356d;
 }
