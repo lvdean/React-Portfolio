@@ -122,7 +122,9 @@ To start the server `npm run dev`
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/ba447391-a795-4767-a476-f82043c31eb0">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/06ceb25e-a2cb-4e93-8650-d907ec0924a8">
 <img width="600" alt="image" src="https://github.com/user-attachments/assets/d4961747-9a1d-4f52-b29b-720977e9449c">
-<img width="1279" alt="image" src="https://github.com/user-attachments/assets/46728cc8-366b-48fb-ad45-62ec619d55b1">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/46728cc8-366b-48fb-ad45-62ec619d55b1">
+<img width="600" alt="image" src="https://github.com/user-attachments/assets/47844c08-2208-4494-800b-4b6f8a91668b">
+
 
 
 
