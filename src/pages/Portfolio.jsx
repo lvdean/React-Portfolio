@@ -17,7 +17,7 @@ export default function Portfolio() {
       </div>
       <div className="img-thumbnail">
         <div className="image-container">
-          <img src="./public/portfolio1.png" alt="portfolio 1" />
+          <img src="/portfolio1.png" alt="portfolio 1" />
           <div className="icon">
             <p>Marvel API</p>
             <a href="https://github.com/Teacher2Coder/project-1" target="_blank" rel="noreferrer">
@@ -31,7 +31,7 @@ export default function Portfolio() {
         </div>
 
         <div className="image-container">
-          <img src="/public/portfolio2.png" alt="portfolio 2" />
+          <img src="/portfolio2.png" alt="portfolio 2" />
           <div className="icon">
             <p>Baby Blog</p>
             <a href="https://github.com/agrove21/tiny-steps-baby-blog" target="_blank" rel="noreferrer">
@@ -44,7 +44,7 @@ export default function Portfolio() {
         </div>
 
         <div className="image-container">
-          <img src="/public/portfolio3.png" alt="portfolio 3" />
+          <img src="/portfolio3.png" alt="portfolio 3" />
           <div className="icon">
             <p>Refractory Challenge</p>
             <a href="https://github.com/lvdean/Challenge1-Refractoring-Horiseon-website?tab=readme-ov-file" target="_blank" rel="noreferrer">
@@ -57,7 +57,7 @@ export default function Portfolio() {
         </div>
 
         <div className="image-container">
-          <img src="/public/portfolio4.png" alt="portfolio 4" />
+          <img src="/portfolio4.png" alt="portfolio 4" />
           <div className="icon">
             <p>Task Board Challenge</p>
             <a href="https://github.com/lvdean/Taskboard-application?tab=readme-ov-file">
@@ -70,7 +70,7 @@ export default function Portfolio() {
         </div>
 
         <div className="image-container">
-          <img src="/public/portfolio5.png" alt="portfolio 5" />
+          <img src="/portfolio5.png" alt="portfolio 5" />
           <div className="icon">
             <p>Password Generator</p>
             <a href="https://github.com/lvdean/JavaScript-Password-Generator">
@@ -83,7 +83,7 @@ export default function Portfolio() {
         </div>
 
         <div className="image-container">
-          <img src="/public/portfolio6.png" alt="portfolio 6" />
+          <img src="/portfolio6.png" alt="portfolio 6" />
           <div className="icon">
             <p>Skills Showcase</p>
             <a href="https://github.com/lvdean/Portfolio-skills-showcase">
