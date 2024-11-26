@@ -10,3 +10,4 @@
           <i><FontAwesomeIcon icon={faLinkedin} /></i>
           </a>
       </div>
+       <a href="/vite-project/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn Profile">
