@@ -12,7 +12,7 @@ export default function About() {
                 <h1>About Me</h1>
                 <h2>Hi, I'm Lauren! I am a full stack developer with a passion for creating and improving web applications.</h2>
             </div>
-            <img src="/public/profilepic.jpg" alt="profile pic" />
+            <img src="public/profilepic.jpg" alt="profile pic" />
             <div className="img-thumbnail">
                 <div className="footer">
                     <a href="https://github.com/lvdean" target="_blank" rel="noopener noreferrer" aria-label="GitHub Profile">
@@ -29,4 +29,3 @@ export default function About() {
         </div>
     );
 }
-  
